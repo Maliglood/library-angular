@@ -1,2 +1,5 @@
 /src/library-angular/wwwroot/main.js
 /src/library-angular/wwwroot/polyfills.js
+/src/library-angular/node_modules
+/src/library-angular/obj
+/src/library-angular/bin
