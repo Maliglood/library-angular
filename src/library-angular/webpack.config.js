@@ -15,6 +15,7 @@ module.exports = {
     },
 
     output: {
+// ReSharper disable once UndeclaredGlobalVariableUsing
         path: path.join(__dirname, "./wwwroot/"),
         filename: "[name].js"
     },
