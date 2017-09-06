@@ -1,9 +1,9 @@
 ﻿import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-content',
+    selector: 'my-app',
     template: `<div>Hello, world!</div>`
 })
 export class AppComponent {
-    name = '';
+    //name = '';
 }
