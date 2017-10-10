@@ -1,0 +1,1 @@
+Чтоьбы отключить встроенную компиляцию и работать только через Webpack, пришлось добавить строку в файл проекта .xproj (http://rostacik.net/2015/08/14/how-to-disable-building-of-typescript-files-in-visual-studio-2015/).
