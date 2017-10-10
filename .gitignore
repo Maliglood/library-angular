@@ -3,3 +3,9 @@
 /src/library-angular/node_modules
 /src/library-angular/obj
 /src/library-angular/bin
+/src/library-angular/Scripts/polyfills.js.map
+/src/library-angular/Scripts/app.component.js
+/src/library-angular/Scripts/app.component.js.map
+/src/library-angular/Scripts/app.js
+/src/library-angular/Scripts/app.js.map
+/src/library-angular/Scripts/polyfills.js
