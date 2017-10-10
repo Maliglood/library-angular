@@ -1,9 +1,9 @@
 ﻿import { Component } from '@angular/core';
-
+alert("Hello!");
 @Component({
     selector: 'my-app',
-    template: `<div>Hello, world!</div>`
+    template: `<h1>Hello {{name}}!</h1>`
 })
 export class AppComponent {
-    //name = '';
+    name = 'World';
 }
