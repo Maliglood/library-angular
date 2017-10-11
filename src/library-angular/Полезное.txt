@@ -1,4 +1,5 @@
-1) Пособие по Typescript'у: https://metanit.com/web/typescript/1.3.php.
-2) Учебник по Angular'у: https://metanit.com/web/angular2/1.1.php.
-3) Как отключить встроенный компилятор TS: http://rostacik.net/2015/08/14/how-to-disable-building-of-typescript-files-in-visual-studio-2015/.
-4) Другое пособие: https://habrahabr.ru/post/321898/.
+1) Пособие по Typescript'у: https://metanit.com/web/typescript/1.3.php
+2) Учебник по Angular'у: https://metanit.com/web/angular2/1.1.php
+3) Как отключить встроенный компилятор TS: http://rostacik.net/2015/08/14/how-to-disable-building-of-typescript-files-in-visual-studio-2015/
+4) Другое пособие: https://habrahabr.ru/post/321898/
+5) .NET Core: https://metanit.com/sharp/aspnet5/11.1.php
