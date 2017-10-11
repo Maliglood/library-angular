@@ -1,5 +1,5 @@
 ﻿import { Component } from '@angular/core';
-alert("Hello!");
+alert("Hello!!!");
 @Component({
     selector: 'my-app',
     template: `<h1>Hello {{name}}!</h1>`

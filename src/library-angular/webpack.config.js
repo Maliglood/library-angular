@@ -7,7 +7,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         polyfills: "./Scripts/polyfills.ts",
-        main: "./Scripts/app.ts"
+        main: "./Scripts/main.ts"
     },
 
     resolve: {
