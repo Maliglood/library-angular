@@ -6,8 +6,8 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        polyfills: "./Scripts/polyfills.ts",
-        main: "./Scripts/main.ts"
+        polyfills: "./app/polyfills.ts",
+        main: "./app/main.ts"
     },
 
     resolve: {
@@ -33,7 +33,8 @@ module.exports = {
                     'ts-loader'
                     , 'angular2-template-loader'
                 ]
-            }
+            },
+            { test: /\.html/, loader: 'html-loader?minimize=false' }
         ]
     },
 
