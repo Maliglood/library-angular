@@ -1,7 +1,7 @@
 ﻿import { Component, OnInit, NgModule } from '@angular/core';
 
 @Component({
-    selector: 'books-app',
+    selector: 'main',
     templateUrl: '../templates/app.template.html'
 })
 
