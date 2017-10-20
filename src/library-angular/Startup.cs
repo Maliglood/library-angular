@@ -23,24 +23,24 @@ namespace library_angular
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
 		{
-			app.UseStaticFiles();
 			app.UseDefaultFiles();
+			app.UseStaticFiles();
 
-			//app.Run(async (context) =>
-			//{
-			//	await context.Response.WriteAsync("Page Not Found");
-			//});
+			//app.Use(
+			//	async (context, next) =>
+			//	{
+			//		await next();
+			//		if (context.Response.StatusCode == 404 &&/* !Path.HasExtension(context.Request.Path.Value) &&*/ !context.Request.Path.Value.StartsWith("/api/"))
+			//		{
+			//			context.Request.Path = "/index.html";
+			//			await next();
+			//		}
+			//	});
 
-			app.Use(
-				async (context, next) =>
-				{
-					await next();
-					if (context.Response.StatusCode == 404 &&/* !Path.HasExtension(context.Request.Path.Value) &&*/ !context.Request.Path.Value.StartsWith("/api/"))
-					{
-						context.Request.Path = "/index.html";
-						await next();
-					}
-				});
+			app.Run(async (context) =>
+			{
+				await context.Response.WriteAsync("404 Page Not Found");
+			});
 		}
 	}
 }
