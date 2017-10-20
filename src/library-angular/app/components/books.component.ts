@@ -13,14 +13,14 @@ export class BooksComponent {
         { id: 3, name: "Приёмы ООП, Паттерны проектирования", author: "Эрих Гамма, Ричард Хелм, Ральф Джонсон, Джон Влиссидес", taker: "Щемель Павел", takeDate: "", returnDate: "23.06.2017" },
         { id: 5, name: "Чистый код. Создание, анализ и рефакторинг", author: "Роберт Мартин", taker: "Захаров Андрей", takeDate: "", returnDate: "25.12.2017" },
         { id: 4, name: "Как пасти котов, Наставление для программистов, руководящих другими программистами", author: "Дж. Ханк Рейнвотер", taker: "Кристина", takeDate: "", returnDate: "" },
-        { id: 6, name: "JavaScript: сильные стороны", author: "", taker: "", takeDate: "Дуглас Крокфорд", returnDate: "" }
+        { id: 6, name: "JavaScript: сильные стороны", author: "Дуглас Крокфорд", taker: "", takeDate: "", returnDate: "" }
     ];
 
     public ngOnInit() {
         
     }
 
-    add(name: string, author: string): void {
-        this.books.push(new Book(name, author));
+    add(name: string, author: string, returnDate: string): void {
+        this.books.push(new Book(name, author, returnDate));
     }
 }
