@@ -7,6 +7,6 @@
 
 export class AppComponent implements OnInit {
     ngOnInit(): void { console.log("Not implemented"); }
-    testHtml = '<p>Hello world</p>';
+    testHtml = '<p>Version 1.0</p>';
     constructor() { }
 }
